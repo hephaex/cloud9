@@ -1,44 +1,32 @@
 [![Build Status](https://travis-ci.org/exsilium/cloud9.svg?branch=master)](https://travis-ci.org/exsilium/cloud9)
 [![Dependency Status](https://gemnasium.com/exsilium/cloud9.svg)](https://gemnasium.com/exsilium/cloud9)
-[![Bitcoin donate button](https://img.shields.io/badge/bitcoin-donate-yellow.svg)](https://www.coinbase.com/checkouts/4d5a4ffc1b22e35493703aafb37488d5 "One-time donation to keep this fork alive")
+[![Bitcoin donate button](https://img.shields.io/badge/bitcoin-donate-yellow.svg)](https://www.coinbase.com/checkouts/16wBMRsdZkNu6Vk7zQetX27aHLnvwusedz"One-time donation to keep this fork alive")
 
-# Cloud9 IDE v2
+# Cloud9 IDE v2 Alternative
 
-As of 14th of February 2015 with a commit that can no longer be linked to, the upstream author Cloud9 IDE, Inc stated that the Cloud9 v2 would no longer be maintained. The original repository issue tracker was closed and notifications were given that the project is superseded by [Cloud9 v3 SDK](https://github.com/c9/core/) with some substantial changes in licensing terms driven by alignment of business goals.
+As of 14th of February 2015 with a commit that can no longer be linked to, the upstream author Cloud9 IDE, Inc stated that the Cloud9 v2 would no longer be maintained. The original repository issue tracker was closed and notifications were given that the project is superseded by [Cloud9 v3 SDK](https://github.com/c9/core/) with some substantial changes in licensing terms driven by alignment of business goals. [exsilium/Cloud9 v2](https://github.com/exsilium/cloud9.git) is the maintained fork for the original Cloud9 IDE v2 that people grew to love. If it feels like these are limiting factors for you, you are welcome to try Cloud9 v2, which is licensed under GPL version 3.
 
-This repository is the maintenance fork for the original Cloud9 IDE that people grew to love. The v3 development is continuing strong but there are many changes to the original approach:
+This repository is alternative version of Cloud IDE v2 to support [Backend.AI](https://cloud.backend.ai) cloud PaaS (Platform as a Service).
 
-- The emphasis is on the development of [c9.io](http://c9.io) cloud-hosted service (Acquired by Amazon as of July 2016)
-- The on-premises solution will be a separately licensed product
-- The distributed SDK is meant for plugin development
-- The core of the product is [no longer licensed as Open Source Software](http://cloud9-sdk.readme.io/v0.1/docs/the-licenses-for-cloud9-sdk-and-packages)
-
-That being said, v3 will include much more features and will surely over time become a very solid and mature offering. Further more, the license allows the SDK version to be used as a personal editor. However, it is strictly prohibited to:
-
-- Use the SDK to build or offer a service
-- Make the SDK version easily available to anyone else besides yourself
-
-If it feels like these are limiting factors for you, you are welcome to try Cloud9 v2, which is licensed under GPL version 3.
-
-## About
+## About Cloud 9 IDE v2
 
 Cloud9 is an open source IDE built with [Node.JS] on the back-end and JavaScript/HTML5 on the client. The version available here runs on your local system. Cloud9 balances the power of traditional desktop IDEs with the simplicity and elegance of editors like TextMate and Sublime.
 
 Cloud9 is built entirely on a web stack, making it the most hacker-friendly IDE today. Fork it, hack it, and if you think others would benefit, file a pull request on this repo or create an issue.
 
-## Fork Extras
+### Fork Extras
 
 - Modern node support (NodeJS >= 0.10+)
 - Up to date dependencies and compatibility fixes
 - Terminal
 
-### Screenshot
+#### Screenshot
 
 ![ScreenShot](doc/screenshot01.png)
 
 ![ScreenShot](doc/screenshot02.png)
 
-## Features
+### Features
 
   * High performance ACE text editor with bundled syntax highlighting support for JS, HTML, CSS and mixed modes.
   * Integrated debugger for [Node.JS] applications with views of the call stack, variables, live code execution and live inspector
@@ -62,7 +50,7 @@ Requirements (>= 2.1.0):
 
 Install:
 
-    git clone https://github.com/exsilium/cloud9.git
+    git clone https://github.com/hephaex/cloud9v2a.git
     cd cloud9
     npm install
 
@@ -83,52 +71,6 @@ To listen to a different IP or hostname, use the `-l HOSTNAME` flag.
 If you want to listen to all IP's:
 
     bin/cloud9.sh -l 0.0.0.0
-
-If you are listening to all IPs it is advised to add authentication to the IDE.
-You can either do this by adding a reverse proxy in front of Cloud9,
-or use the built in basic authentication through the `--username` and `--password` flags.
-
-    bin/cloud9.sh --username leuser --password c9isawesome
-
-Cloud9 is compatible with all connect authentication layers,
-to implement your own, please see the `plugins-server/cloud9.connect.basic-auth` plugin
-on how we added basic authentication.
-
-## Installation on Windows (experimental)
-
-If you are on Windows Insider Program, use the Bash on Windows feature to install Cloud9.
-
-Install [NVM](https://github.com/creationix/nvm) to manage node versions. Install a node version to your liking. The following is needed to install the needed build tools:
-
-    sudo apt-get update
-	sudo apt-get install build-essential
-
-Clone the Cloud9 repo to your machine and run npm:
-
-    npm install
-    make worker
-    node server.js -w ./ -l 0.0.0.0 -a x-www-browser
-
-## Updating
-
-To update to the latest version (if this doesn't work, just make a fresh clone):
-
-    git pull
-    npm update
-
-`npm update` does not currently install missing dependencies. To do so use:
-
-    npm install
-
-## Creating your own Plugins
-
-Cloud9v2 functionality is all created around server and client-side plugins.
-However, there is hardly any documentation about the APIs to create your own
-plugins. To get you started, please see [exsilium/cloud9-plugin-ungit](https://github.com/exsilium/cloud9-plugin-ungit)
-to see how to get started.
-
-Going forward, there will be efforts made to sort out the documentation and
-write some tutorials to make it more easier to get started.
 
 ## Open Source Projects Used
 
