@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/exsilium/cloud9.svg?branch=master)](https://travis-ci.org/exsilium/cloud9)
 [![Dependency Status](https://gemnasium.com/exsilium/cloud9.svg)](https://gemnasium.com/exsilium/cloud9)
 [![Bitcoin donate button](https://img.shields.io/badge/bitcoin-donate-yellow.svg)](https://www.coinbase.com/checkouts/16wBMRsdZkNu6Vk7zQetX27aHLnvwusedz"One-time donation to keep this fork alive")
-
+ 
 # Cloud9 IDE v2 Alternative
 
 As of 14th of February 2015 with a commit that can no longer be linked to, the upstream author Cloud9 IDE, Inc stated that the Cloud9 v2 would no longer be maintained. The original repository issue tracker was closed and notifications were given that the project is superseded by [Cloud9 v3 SDK](https://github.com/c9/core/) with some substantial changes in licensing terms driven by alignment of business goals. [exsilium/Cloud9 v2](https://github.com/exsilium/cloud9.git) is the maintained fork for the original Cloud9 IDE v2 that people grew to love. If it feels like these are limiting factors for you, you are welcome to try Cloud9 v2, which is licensed under GPL version 3.
