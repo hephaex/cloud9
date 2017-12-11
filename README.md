@@ -20,12 +20,6 @@ Cloud9 is built entirely on a web stack, making it the most hacker-friendly IDE 
 - Up to date dependencies and compatibility fixes
 - Terminal
 
-#### Screenshot
-
-![ScreenShot](doc/screenshot01.png)
-
-![ScreenShot](doc/screenshot02.png)
-
 ### Features
 
   * High performance ACE text editor with bundled syntax highlighting support for JS, HTML, CSS and mixed modes.
@@ -40,8 +34,6 @@ Cloud9 is built entirely on a web stack, making it the most hacker-friendly IDE 
 We support the newer versions of Chrome, Firefox and Safari.
 
 ## Installation and Usage
-
-If installing on Windows, please refer to [Installation on Windows](#installation-on-windows-experimental).
 
 Requirements (>= 2.1.0):
 
