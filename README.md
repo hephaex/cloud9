@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/exsilium/cloud9.svg?branch=master)](https://travis-ci.org/exsilium/cloud9)
 [![Dependency Status](https://gemnasium.com/exsilium/cloud9.svg)](https://gemnasium.com/exsilium/cloud9)
-[![Bitcoin donate button](https://img.shields.io/badge/bitcoin-donate-yellow.svg)](https://www.coinbase.com/checkouts/16wBMRsdZkNu6Vk7zQetX27aHLnvwusedz) "One-time donation to keep this fork alive"
+[![Bitcoin donate button](https://img.shields.io/badge/bitcoin-donate-yellow.svg)](https://www.coinbase.com/checkouts/16wBMRsdZkNu6Vk7zQetX27aHLnvwusedz) 
+"One-time donation to keep this fork alive"
  
 # Cloud9 IDE v2 Alternative
 
@@ -95,7 +96,3 @@ Thanks to all developers and contributors of these projects!
 ## License
 
 The GPL version 3, read it at [http://www.gnu.org/licenses/gpl.txt](http://www.gnu.org/licenses/gpl.txt)
-
-## Contributing
-
-Open new issue for discussions and/or feel free to submit a pull request against the development branch
